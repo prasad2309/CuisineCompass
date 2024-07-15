@@ -1,6 +1,6 @@
 # CuisineCompass: A Cloud-Based Restaurant Recommendation System
 
-This project implements a Dining Concierge Chatbot using AWS services. The chatbot can take user inputs such as location, cuisine preference, dining time, number of people, and email, and then push this information to an SQS queue.
+This project implements a Dining Concierge Chatbot using AWS services. The chatbot can take user inputs such as location, cuisine preference, dining time, number of people, and email and provide restaurant recommendations based on those preferences.
 
 ## Table of Contents
 - [Architecture](#architecture)
