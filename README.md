@@ -27,4 +27,6 @@ This project implements a Dining Concierge Chatbot using AWS services. The chatb
 - **Integration:** Full integration of Lex chatbot with the API and frontend.
 
 ![User Interaction](https://github.com/prasad2309/CuisineCompass/blob/main/chat1.png)
+![User Interaction continued](https://github.com/prasad2309/CuisineCompass/blob/main/chat2.png)
+![Mail](https://github.com/prasad2309/CuisineCompass/blob/main/mail.png)
 
