@@ -19,12 +19,16 @@ This project implements a Dining Concierge Chatbot using AWS services. The chatb
 9. **Amazon SQS:** Queue to hold dining suggestions requests.
 10. **Amazon SNS:** To send mail notification to user with the recommendations
 
+![Diagram](https://github.com/prasad2309/CuisineCompass/blob/main/architecture.png)
+
 ## Features
 
 - **Frontend:** Simple UI to interact with the chatbot.
 - **API:** RESTful API to handle user messages.
 - **Chatbot:** Lex-based chatbot with intents for greeting, thanking, and dining suggestions.
 - **Integration:** Full integration of Lex chatbot with the API and frontend.
+
+## Demo
 
 ![User Interaction](https://github.com/prasad2309/CuisineCompass/blob/main/chat1.png)
 ![User Interaction continued](https://github.com/prasad2309/CuisineCompass/blob/main/chat2.png)
