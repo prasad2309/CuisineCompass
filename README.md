@@ -15,7 +15,7 @@ This project implements a Dining Concierge Chatbot using AWS services. The chatb
 5. **OpenSearch:** Efficient querying of data
 6. **Amazon Lex:** Manages the chatbot logic.
 7. **AWS Lambda (LF1):** Code hooks for Lex intents, processing user inputs, and sending data to SQS.
-8. **AWS Lambda (LF2):** Processing recommendations using restaurant data and user preferences
+8. **AWS Lambda (LF2):** Processing recommendations using restaurant data and user preferences from SQS
 9. **Amazon SQS:** Queue to hold dining suggestions requests.
 10. **Amazon SNS:** To send mail notification to user with the recommendations
 
