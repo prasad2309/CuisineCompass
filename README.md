@@ -11,9 +11,13 @@ This project implements a Dining Concierge Chatbot using AWS services. The chatb
 1. **Frontend:** Hosted in an AWS S3 bucket, serving a static website for interacting with the chatbot.
 2. **API Gateway:** Exposes the API to the frontend.
 3. **AWS Lambda (LF0):** Handles API requests, forwards user messages to the Lex chatbot.
-4. **Amazon Lex:** Manages the chatbot logic.
-5. **AWS Lambda (LF1):** Code hooks for Lex intents, processing user inputs, and sending data to SQS.
-6. **Amazon SQS:** Queue to hold dining suggestions requests.
+4. **DynamoDB:** Storing 4000+ restaurants data fetched from Yelp API
+5. **OpenSearch:** Efficient querying of data
+6. **Amazon Lex:** Manages the chatbot logic.
+7. **AWS Lambda (LF1):** Code hooks for Lex intents, processing user inputs, and sending data to SQS.
+8. **AWS Lambda (LF2):** Processing recommendations using restaurant data and user preferences
+9. **Amazon SQS:** Queue to hold dining suggestions requests.
+10. **Amazon SNS:** To send mail notification to user with the recommendations
 
 ## Features
 
