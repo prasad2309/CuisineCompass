@@ -5,12 +5,6 @@ This project implements a Dining Concierge Chatbot using AWS services. The chatb
 ## Table of Contents
 - [Architecture](#architecture)
 - [Features](#features)
-- [Setup](#setup)
-- [Frontend Deployment](#frontend-deployment)
-- [API Implementation](#api-implementation)
-- [Chatbot Implementation](#chatbot-implementation)
-- [Integration](#integration)
-- [Testing](#testing)
 
 ## Architecture
 
