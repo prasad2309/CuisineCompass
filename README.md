@@ -19,7 +19,7 @@ This project implements a Dining Concierge Chatbot using AWS services. The chatb
 9. **Amazon SQS:** Queue to hold dining suggestions requests.
 10. **Amazon SNS:** To send mail notification to user with the recommendations
 
-![Diagram](https://github.com/prasad2309/CuisineCompass/blob/main/architecture.png)
+![Diagram](https://github.com/prasad2309/CuisineCompass/blob/main/architecture.jpg)
 
 ## Features
 
